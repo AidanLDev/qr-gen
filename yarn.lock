@@ -8365,6 +8365,11 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qrcode.react@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/qrcode.react/-/qrcode.react-4.0.0.tgz#fd394eae8fe327ed325a0c9eadf270ec41ba9d18"
+  integrity sha512-gbyNYYAsBsV4wH+hEdlqrQb7uPC1jYrOJlZTqvnS1spaiwGC1/syE1q+hfUeAGDBQcLRqplhrcKxS3xjEbzCIQ==
+
 qs@6.11.0:
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
