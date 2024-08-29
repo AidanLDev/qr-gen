@@ -1,13 +1,24 @@
-import React from 'react';
 import { QRCodeSVG } from 'qrcode.react';
 
-export default function QrCode() {
+interface IQrCode {
+  url: string;
+  size: number;
+  bgColour: string;
+  fgColour: string;
+}
+
+export default function QrCode({
+  bgColour,
+  fgColour,
+  size,
+  url
+}: IQrCode) {
   return (
     <QRCodeSVG
-      value='https://dailydevhub.com'
-      size={128}
-      bgColor='#FFF'
-      fgColor='#000'
+      value={url ?? 'https://devdailyhub.com'}
+      size={size ?? 128}
+      bgColor={bgColour ?? '#FFF'}
+      fgColor={fgColour ?? '#000'}
     />
   );
 }
